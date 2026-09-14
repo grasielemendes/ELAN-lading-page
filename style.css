@@ -42,11 +42,8 @@ button {
 
 :root {
   --container: 1200px;
-
   --space-section: 100px;
-
   --radius: 8px;
-
   --transition: 0.3s ease;
 }
 
@@ -56,7 +53,6 @@ button {
 
 .container {
   width: min(90%, var(--container));
-
   margin-inline: auto;
 }
 
@@ -241,7 +237,6 @@ header > nav > ul > li > a {
   margin: 20px 0;
   font-family: 'Encode Sans Expanded', sans-serif;
   font-size: clamp(4rem, 7vw, 7rem);
-
   line-height: 1;
 }
 
@@ -689,18 +684,12 @@ header > nav > ul > li > a {
 @media (max-width: 768px) {
   .nav-menu {
     display: none;
-
     position: absolute;
-
     top: 80px;
     left: 0;
-
     width: 100%;
-
     flex-direction: column;
-
     padding: 30px;
-
     background: white;
   }
 
@@ -710,11 +699,8 @@ header > nav > ul > li > a {
 
   .menu-toggle {
     display: block;
-
     border: none;
-
     background: none;
-
     cursor: pointer;
   }
 
