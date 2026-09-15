@@ -473,6 +473,7 @@ header > nav > ul > li > a {
   line-height: 1.2;
   margin: 5px 50px;
   padding-top: 10px;
+  text-align: center;
 }
 
 .testimonial > #testimonial-nome {
@@ -557,6 +558,8 @@ header > nav > ul > li > a {
   margin-top: 10px;
   background-color: #faa0a0;
   color: #141414;
+  border: 20px 0px;
+  margin: auto;
 
   display: flex;
   align-items: center;
@@ -564,7 +567,7 @@ header > nav > ul > li > a {
 }
 .cta-final-section .container {
   background-color: #faa0a0;
-  align-items: center center;
+  border: 20px 50px;
 }
 
 .cta-final-section .container > h2 {
@@ -584,15 +587,15 @@ header > nav > ul > li > a {
 
 .cta-final {
   text-align: center;
-  padding-block: 40px;
+  border: 50px;
 }
 
 .container-img {
   width: 800px;
-  height: 500px;
+  height: 550px;
   background-color: #faa0a0;
-  align-items: center center;
   padding: 30px 30px;
+  border: 30px 100px;
   border-radius: 10px;
   
 }
@@ -600,7 +603,7 @@ header > nav > ul > li > a {
 .cta-final h2 {
   font-size: clamp(3rem, 7vw, 6rem);
   line-height: 1;
-}
+} 
 
 /* =========================
    FOOTER
