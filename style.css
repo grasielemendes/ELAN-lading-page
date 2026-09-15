@@ -554,7 +554,7 @@ header > nav > ul > li > a {
 ========================= */
 
 .cta-final-section {
-  margin-top: 20px;
+  margin-top: 10px;
   background-color: #faa0a0;
   color: #141414;
 
@@ -564,6 +564,7 @@ header > nav > ul > li > a {
 }
 .cta-final-section .container {
   background-color: #faa0a0;
+  align-items: center center;
 }
 
 .cta-final-section .container > h2 {
@@ -583,15 +584,15 @@ header > nav > ul > li > a {
 
 .cta-final {
   text-align: center;
-  padding-block: 120px;
+  padding-block: 40px;
 }
 
 .container-img {
   width: 800px;
   height: 500px;
   background-color: #faa0a0;
-  align-items: center;
-  margin: 30px 120px;
+  align-items: center center;
+  padding: 30px 30px;
   border-radius: 10px;
   
 }
