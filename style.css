@@ -555,11 +555,10 @@ header > nav > ul > li > a {
 ========================= */
 
 .cta-final-section {
-  margin-top: 10px;
   background-color: #faa0a0;
   color: #141414;
   border: 20px 0px;
-  margin: auto;
+
 
   display: flex;
   align-items: center;
@@ -591,12 +590,13 @@ header > nav > ul > li > a {
 }
 
 .container-img {
-  width: 800px;
-  height: 550px;
   background-color: #faa0a0;
-  padding: 30px 30px;
-  border: 30px 100px;
+  padding-top: 30px;
+  padding-left: 200px;
+  padding-right: 50px;
+  padding-bottom: 30px;
   border-radius: 10px;
+  width: 50%;
   
 }
 
