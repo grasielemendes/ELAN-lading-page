@@ -459,18 +459,20 @@ header > nav > ul > li > a {
 
 .testimonial {
   max-width: 800px;
+  margin: auto;
 }
 
 .testimonial > .testimonial-img {
   width: 150px;
   height: 150px;
+  margin: auto;
 }
 
-.testimonial-text {
+.testimonial > .testimonial-text {
   font-size: clamp(1.8rem, 4vw, 3rem);
   line-height: 1.2;
-  margin-bottom: 30px;
-  text-align: center;
+  margin: 5px 50px;
+  padding-top: 10px;
 }
 
 .testimonial > #testimonial-nome {
